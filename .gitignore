@@ -1,0 +1,30 @@
+# ── 数据文件（严禁入库）──
+*.xlsx
+*.xls
+*.csv
+*.txt.bak
+
+# ── 构建产物 ──
+*.exe
+*.lnk
+_internal/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# ── 运行产物 ──
+输出/
+备份/
+历史报告/
+检查日志*.txt
+*-错误日志.txt
+config.json
+
+# ── 系统 ──
+Thumbs.db
+desktop.ini
+
+# ── 私密/含真实数据的文档（严禁入库）──
+*AI可迁移*
+*私密*
